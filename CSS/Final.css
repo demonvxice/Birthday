@@ -1,0 +1,32 @@
+
+body {
+    background-color: #24273a;
+    color: #cad3f5;
+    font-family: 'Times New Roman', Times, serif;
+    animation-name: fadein;
+    animation-duration: 4s;
+}
+
+header {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+center {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    text-align: center; /* Aligns content in the center horizontally */
+    
+}
+ .Home {
+    color: #cad3f5;
+ }
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 100; }
+}

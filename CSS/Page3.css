@@ -1,0 +1,56 @@
+header {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    align-items: center; /* Vertically center the items */
+    margin-bottom: 20px; /* Add margin for spacing */
+}
+
+header img {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+body {
+    background-color: #24273a;
+    color: #cad3f5;
+    font-family: 'Times New Roman', Times, serif;
+    animation-name: fadein;
+    animation-duration: 4s;
+}
+
+.Center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Center img {
+    margin: 10px; /* Adjust the margin as needed */
+}
+
+.Right {
+    display: flex;
+    justify-content: center;
+}
+
+.Right img {
+    margin: 10px; /* Adjust the margin as needed */
+}
+
+
+.NextPage {
+    position: fixed;
+    top: 20px; /* Adjust the distance from the top as needed */
+    right: 20px; /* Adjust the distance from the right as needed */
+}
+
+.Next {
+    color: #cad3f5;
+    text-decoration: none; /* Remove underline */
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 100; }
+}

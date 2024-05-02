@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+body {
+    background-color: #24273a;
+    text-align: center;
+    font-family: 'Consolas', 'Source Code Pro', serif;
+    margin-top: -55px;
+    animation-name: fadein;
+    animation-duration: 4s;
+}
+
+header {
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+}
+/* This is the button's position and changing the font color*/
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .Dummy,
+    .Dummyy {
+        position: static;
+        display: inline-block;
+        margin-top: 10px;
+
+    }
+
+    .Dummyy {
+        margin-left: 10px;
+
+    }
+}
+
+.Back {
+    color: #cad3f5;
+}
+.Next {
+    color: #cad3f5;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 100; }
+}
